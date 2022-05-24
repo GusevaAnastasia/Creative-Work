@@ -1,0 +1,14 @@
+﻿Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutInit в функции main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutInitDisplayMode в функции main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutInitWindowSize в функции main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutMainLoop в функции main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutCreateWindow в функции main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutPostRedisplay в функции "void __cdecl mouseClick(int,int,int,int)" (?mouseClick@@YAXHHHH@Z).
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutSwapBuffers в функции "void __cdecl display(void)" (?display@@YAXXZ).
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutDisplayFunc в функции main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutReshapeFunc в функции main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutMouseFunc в функции main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutGet в функции main.
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ glutBitmapCharacter в функции "void __cdecl drawMenuText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)" (?drawMenuText@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x64\glut32.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+C:\Users\Lenovo\source\repos\TravelingSalesmanTask\x64\Debug\TravelingSalesmanTask.exe : fatal error LNK1120: неразрешенных внешних элементов: 12

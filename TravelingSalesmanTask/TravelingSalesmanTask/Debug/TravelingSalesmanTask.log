@@ -1,0 +1,20 @@
+﻿  Main.cpp
+C:\Users\Lenovo\source\repos\TravelingSalesmanTask\TravelingSalesmanTask\Graph.h(455,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Lenovo\source\repos\TravelingSalesmanTask\TravelingSalesmanTask\Graph.h(518,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Lenovo\source\repos\TravelingSalesmanTask\TravelingSalesmanTask\Graph.h(621,8): warning C4101: VertexT: неиспользованная локальная переменная
+C:\Users\Lenovo\source\repos\TravelingSalesmanTask\TravelingSalesmanTask\Graph.h(622,8): warning C4101: EdgeWeight: неиспользованная локальная переменная
+C:\Users\Lenovo\source\repos\TravelingSalesmanTask\TravelingSalesmanTask\Graph.h(297,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Lenovo\source\repos\TravelingSalesmanTask\TravelingSalesmanTask\Graph.h(296): message : во время компиляции функции-члена класс шаблон "int Graph<int>::GetVertPos(const T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\Lenovo\source\repos\TravelingSalesmanTask\TravelingSalesmanTask\Graph.h(354): message : выполняется компиляция ссылки на экземпляр шаблон функции "int Graph<int>::GetVertPos(const T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\Lenovo\source\repos\TravelingSalesmanTask\TravelingSalesmanTask\Graph.h(307): message : во время компиляции функции-члена класс шаблон "Graph<int>::Graph(void)"
+C:\Users\Lenovo\source\repos\TravelingSalesmanTask\TravelingSalesmanTask\Graph.h(53): message : выполняется компиляция ссылки на экземпляр шаблон функции "Graph<int>::Graph(void)"
+C:\Users\Lenovo\source\repos\TravelingSalesmanTask\TravelingSalesmanTask\Graph.h(53): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Graph<int>"
+  TravelingSalesmanTask.vcxproj -> C:\Users\Lenovo\source\repos\TravelingSalesmanTask\Debug\TravelingSalesmanTask.exe
