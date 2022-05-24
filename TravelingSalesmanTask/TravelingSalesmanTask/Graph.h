@@ -51,7 +51,7 @@ Coords vc[20];
 
 Graph<int> graph;
 
-void SolFunKom(int*** mt, int n, int** hp, int* path) //минимумы по строкам и столбцам
+void SolFunKom(int*** mt, int n, int** hp, int* path) //РїРѕРёСЃРє РјРёРЅ РїРѕ СЃС‚РѕР»Р±С†Р°Рј Рё СЃС‚СЂРѕРєР°Рј
 {
 
 	for (int l = 0; l < n; l++)
@@ -130,7 +130,7 @@ void SolFunKom(int*** mt, int n, int** hp, int* path) //минимумы по строкам и ст
 	}
 }
 
-void SolFunKom2(int***& mt, int& n, int**& hp, int*& result) //создание матрицы
+void SolFunKom2(int***& mt, int& n, int**& hp, int*& result) //СЃРѕР·РґР°РЅРёРµ РјР°СЂРёС†С‹ СЃРјРµР¶РЅРѕСЃС‚Рё
 {
 	n = VertsAmount;
 
@@ -161,13 +161,13 @@ void SolFunKom2(int***& mt, int& n, int**& hp, int*& result) //создание матрицы
 }
 
 
-void SolFunKom3(int*** mat, int n, int** hp, int* result) //нахождение кратчайшего пути - решение задачи
+void SolFunKom3(int*** mat, int n, int** hp, int* result) //РїРѕРёСЃРє СЂРµР·СѓР»СЊС‚Р°С‚Р°
 {
 	SolFunKom2(mat, n, hp, result);
 	int s = 0;
 	SolFunKom(mat, n, hp, result);
 
-	cout << "Отрезки путей: " << endl;
+	cout << "ГЋГІГ°ГҐГ§ГЄГЁ ГЇГіГІГҐГ©: " << endl; //РІС‹РІРѕРґ РѕС‚СЂРµР·РєРѕРІ РїСѓС‚РµР№
 	for (int i = 0, j = 0; i < n; i++)
 	{
 		j = result[i];
@@ -176,7 +176,7 @@ void SolFunKom3(int*** mat, int n, int** hp, int* result) //нахождение кратчайше
 	}
 	cout << endl;
 
-	cout << "Кратчайший путь: " << endl;
+	cout << "ГЉГ°Г ГІГ·Г Г©ГёГЁГ© ГЇГіГІГј: " << endl; //РІС‹РІРѕРґ РѕРїС‚РёРјР°Р»СЊРЅРѕРіРѕ РїСѓС‚Рё
 	int temp = 0;
 	for (int l = 0; l < n;)
 	{
@@ -192,7 +192,7 @@ void SolFunKom3(int*** mat, int n, int** hp, int* result) //нахождение кратчайше
 			}
 		}
 	}
-	cout << endl << "Общее расстояние: " << s << endl;
+	cout << endl << "ГЋГЎГ№ГҐГҐ Г°Г Г±Г±ГІГ®ГїГ­ГЁГҐ: " << s << endl; //РєСЂР°С‚С‡Р°Р№С€РёР№ РїСѓС‚СЊ
 }
 
 
@@ -218,7 +218,7 @@ std::vector<T> Graph<T>::GetNbrs(const T& vertex)
 
 
 template<class T>
-void Graph<T>::InsertVertex(const T& vertex) //добавление элемента
+void Graph<T>::InsertVertex(const T& vertex) //РґРѕР±Р°РІР»РµРЅРёРµ СЌР»РµРјРµРЅС‚Р°
 {
 	if (!this->IsFull())
 	{
@@ -226,13 +226,13 @@ void Graph<T>::InsertVertex(const T& vertex) //добавление элемента
 	}
 	else
 	{
-		cout << "Граф заполнен " << endl;
+		cout << "ГѓГ°Г Гґ Г§Г ГЇГ®Г«Г­ГҐГ­ " << endl;
 		return;
 	}
 }
 
 template<class T>
-void Graph<T>::DeleteVertex() //удаление элемента
+void Graph<T>::DeleteVertex() //СѓРґР°Р»РµРЅРёРµ СЌР»РµРјРµРЅС‚Р°
 {
 	this->vertList.pop_back();
 }
@@ -317,13 +317,13 @@ template<class T>
 Graph<T>::~Graph() { }
 
 
-Graph<int> makeGraph() //создание графа, ввод данных
+Graph<int> makeGraph() //СЃРѕР·РґР°РЅРёРµ РіСЂР°С„Р°, РІРІРѕРґ РїРѕР»СЊР·РѕРІР°С‚РµР»РµРј Р·РЅР°С‡РµРЅРёР№
 {
 	Graph<int> graph;
 	int EdgesAmount, VertexF, VertexT, EdgeWeight;
 
-	cout << "Количество вершин: "; cin >> VertsAmount; cout << endl;
-	cout << "Количество рёбер: "; cin >> EdgesAmount; cout << endl;
+	cout << "ГЉГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГўГҐГ°ГёГЁГ­: "; cin >> VertsAmount; cout << endl;
+	cout << "ГЉГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г°ВёГЎГҐГ°: "; cin >> EdgesAmount; cout << endl;
 
 	for (int i = 1; i <= VertsAmount; ++i)
 	{
@@ -333,12 +333,12 @@ Graph<int> makeGraph() //создание графа, ввод данных
 
 	for (int i = 0; i < EdgesAmount; ++i)
 	{
-		cout << "Начальная вершина: "; cin >> VertexF;
+		cout << "ГЌГ Г·Г Г«ГјГ­Г Гї ГўГҐГ°ГёГЁГ­Г : "; cin >> VertexF;
 		int* VertFptr = &VertexF;
-		cout << "Конечная вершина: "; cin >> VertexT;
+		cout << "ГЉГ®Г­ГҐГ·Г­Г Гї ГўГҐГ°ГёГЁГ­Г : "; cin >> VertexT;
 		int* VertTptr = &VertexT;
 
-		cout << "Вес: "; cin >> EdgeWeight; cout << endl;
+		cout << "Г‚ГҐГ±: "; cin >> EdgeWeight; cout << endl;
 
 		graph.InsertEdge(*VertFptr, *VertTptr, EdgeWeight);
 	}
@@ -348,7 +348,7 @@ Graph<int> makeGraph() //создание графа, ввод данных
 }
 
 template<class T>
-void Graph<T>::InsertEdge(const T& vertex1, const T& vertex2, int weight) //дабовление пути
+void Graph<T>::InsertEdge(const T& vertex1, const T& vertex2, int weight) 
 {
 	if (this->GetVertPos(vertex1) != (-1) && this->GetVertPos(vertex2) != (-1))
 	{
@@ -357,7 +357,7 @@ void Graph<T>::InsertEdge(const T& vertex1, const T& vertex2, int weight) //дабо
 
 		if (this->AdjMatrix[vertPos1][vertPos2] != 0 && this->AdjMatrix[vertPos2][vertPos1] != 0)
 		{
-			cout << "Такой путь уже есть" << endl;
+			cout << "Г’Г ГЄГ®Г© ГЇГіГІГј ГіГ¦ГҐ ГҐГ±ГІГј" << endl;
 			return;
 		}
 		else
@@ -368,17 +368,17 @@ void Graph<T>::InsertEdge(const T& vertex1, const T& vertex2, int weight) //дабо
 	}
 	else
 	{
-		cout << "Невозможно провести путь " << endl;
+		cout << "ГЌГҐГўГ®Г§Г¬Г®Г¦Г­Г® ГЇГ°Г®ГўГҐГ±ГІГЁ ГЇГіГІГј " << endl;
 		return;
 	}
 }
 
 template<class T>
-void Graph<T>::Print()  //вывод матрица
+void Graph<T>::Print()  //РІС‹РІРѕРґ РјР°С‚СЂРёС†С‹ СЃРјРµР¶РЅРѕСЃС‚Рё
 {
 	if (!this->IsEmpty())
 	{
-		cout << "Матрица смежности: " << endl;
+		cout << "ГЊГ ГІГ°ГЁГ¶Г  Г±Г¬ГҐГ¦Г­Г®Г±ГІГЁ: " << endl;
 		for (int i = 0, vertListSize = this->vertList.size(); i < vertListSize; ++i)
 		{
 			cout << this->vertList[i] << " ";
@@ -420,7 +420,7 @@ void setCoord(int i, int n)
 
 void drawCircle(int x, int y, int r)
 {
-	//круг
+	//РєСЂСѓРі
 	glColor3f(0.1, 0.0, 0.1);
 	float x1, y1;
 	glBegin(GL_POLYGON);
@@ -432,7 +432,7 @@ void drawCircle(int x, int y, int r)
 		glVertex2f(x1, y1);
 	}
 	glEnd();
-	//граница
+	//РіСЂР°РЅРёС†Р° 
 	glColor3f(1.0f, 1.0f, 1.0f);
 	float x2, y2;
 	glBegin(GL_LINE_LOOP);
@@ -457,7 +457,7 @@ void drawText(int nom, int x1, int y1)
 		glutBitmapCharacter(font, str[j]);
 }
 
-void drawLine(int text, int x0, int y0, int x1, int y1) //отрисовка путей
+void drawLine(int text, int x0, int y0, int x1, int y1) //РѕС‚СЂРёСЃРѕРІРєР° СЂС‘Р±РµСЂ
 {
 	glColor3f(1.0f, 1.0f, 1.0f);
 	glBegin(GL_LINES);
@@ -470,7 +470,7 @@ void drawLine(int text, int x0, int y0, int x1, int y1) //отрисовка путей
 
 void drawVertex(int n)
 {
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < n; i++) //РѕС‚СЂРёСЃРѕРІРєР° РІСЃРµС… РєСЂСѓРіРѕРІ
 	{
 		drawCircle(vc[i].x, vc[i].y, r);
 		drawText(i + 1, vc[i].x, vc[i].y);
@@ -499,7 +499,7 @@ void Graph<T>::DrawGraph()
 	drawVertex(n);
 }
 
-void reshape(int w, int h)//побор размера окна
+void reshape(int w, int h)//РїРѕРґР±РѕСЂ СЂР°Р·РјРµСЂРѕРІ РѕРєРЅР°
 {
 	WinW = w;
 	WinH = h;
@@ -520,7 +520,7 @@ void drawMenuText(string text, int x1, int y1)
 }
 
 void drawMenu()
-{//кнопки
+{//РѕС‚СЂРёСЃРѕРІРєР° РєРЅРѕРїРѕРє
 	int shift = 60;
 	int height = 730;
 
@@ -599,9 +599,9 @@ void mouseClick(int btn, int stat, int x, int y)
 			int VertexT;
 			int EdgeWeight;
 
-			cout << "Начальная вершина: "; cin >> VertexF; cout << endl;
+			cout << "ГЌГ Г·Г Г«ГјГ­Г Гї ГўГҐГ°ГёГЁГ­Г : "; cin >> VertexF; cout << endl;
 			int* VertFptr = &VertexF;
-			cout << "Конечная вершина: "; cin >> VertexT; cout << endl;
+			cout << "ГЉГ®Г­ГҐГ·Г­Г Гї ГўГҐГ°ГёГЁГ­Г : "; cin >> VertexT; cout << endl;
 			int* VertTptr = &VertexT;
 
 			if (VertexF > VertsAmount || VertexT > VertsAmount) {
@@ -610,7 +610,7 @@ void mouseClick(int btn, int stat, int x, int y)
 				graph.InsertVertex(*vertPtr);
 			}
 
-			cout << "Вес: "; cin >> EdgeWeight; cout << endl;
+			cout << "Г‚ГҐГ±: "; cin >> EdgeWeight; cout << endl;
 
 			graph.InsertEdge(*VertFptr, *VertTptr, EdgeWeight);
 		}
@@ -621,14 +621,14 @@ void mouseClick(int btn, int stat, int x, int y)
 			int VertexT;
 			int EdgeWeight;
 
-			cout << "Вершина для удаления: "; cin >> VertexF; cout << endl;
+			cout << "Г‚ГҐГ°ГёГЁГ­Г  Г¤Г«Гї ГіГ¤Г Г«ГҐГ­ГЁГї: "; cin >> VertexF; cout << endl;
 			int* VertFptr = &VertexF;
 			if (VertexF == VertsAmount)
 			{
 				VertsAmount--;
 				graph.DeleteVertex();
 			}
-			else cout << "Невозможно удалить \n";
+			else cout << "ГЌГҐГўГ®Г§Г¬Г®Г¦Г­Г® ГіГ¤Г Г«ГЁГІГј \n";
 		}
 
 		if (x > shift && x < shift + 135 && y >  shift + 160 && y < shift + 180)
