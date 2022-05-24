@@ -13,7 +13,7 @@ namespace Calculator {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -22,13 +22,13 @@ namespace Calculator {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~MyForm()
 		{
@@ -113,14 +113,14 @@ namespace Calculator {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -219,7 +219,7 @@ namespace Calculator {
 			this->tabPage1->Padding = System::Windows::Forms::Padding(3);
 			this->tabPage1->Size = System::Drawing::Size(623, 287);
 			this->tabPage1->TabIndex = 0;
-			this->tabPage1->Text = L"Рассчет времени между двумя датами";
+			this->tabPage1->Text = L"ГђГ Г±Г±Г·ГҐГІ ГўГ°ГҐГ¬ГҐГ­ГЁ Г¬ГҐГ¦Г¤Гі Г¤ГўГіГ¬Гї Г¤Г ГІГ Г¬ГЁ";
 			// 
 			// label19
 			// 
@@ -231,7 +231,7 @@ namespace Calculator {
 			this->label19->Name = L"label19";
 			this->label19->Size = System::Drawing::Size(33, 21);
 			this->label19->TabIndex = 33;
-			this->label19->Text = L"лет";
+			this->label19->Text = L"Г«ГҐГІ";
 			// 
 			// Result3
 			// 
@@ -252,7 +252,7 @@ namespace Calculator {
 			this->label20->Name = L"label20";
 			this->label20->Size = System::Drawing::Size(93, 21);
 			this->label20->TabIndex = 31;
-			this->label20->Text = L"месяцев  = ";
+			this->label20->Text = L"Г¬ГҐГ±ГїГ¶ГҐГў  = ";
 			// 
 			// Result2
 			// 
@@ -272,7 +272,7 @@ namespace Calculator {
 			this->label15->Name = L"label15";
 			this->label15->Size = System::Drawing::Size(68, 21);
 			this->label15->TabIndex = 17;
-			this->label15->Text = L"дней   =";
+			this->label15->Text = L"Г¤Г­ГҐГ©   =";
 			// 
 			// Result
 			// 
@@ -292,7 +292,7 @@ namespace Calculator {
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(80, 21);
 			this->label7->TabIndex = 15;
-			this->label7->Text = L"Результат";
+			this->label7->Text = L"ГђГҐГ§ГіГ«ГјГІГ ГІ";
 			this->label7->Click += gcnew System::EventHandler(this, &MyForm::label7_Click);
 			// 
 			// ClearButton
@@ -304,7 +304,7 @@ namespace Calculator {
 			this->ClearButton->Name = L"ClearButton";
 			this->ClearButton->Size = System::Drawing::Size(90, 33);
 			this->ClearButton->TabIndex = 14;
-			this->ClearButton->Text = L"Очистить";
+			this->ClearButton->Text = L"ГЋГ·ГЁГ±ГІГЁГІГј";
 			this->ClearButton->UseVisualStyleBackColor = true;
 			this->ClearButton->Click += gcnew System::EventHandler(this, &MyForm::ClearButton_Click);
 			// 
@@ -317,7 +317,7 @@ namespace Calculator {
 			this->resultButton->Name = L"resultButton";
 			this->resultButton->Size = System::Drawing::Size(90, 33);
 			this->resultButton->TabIndex = 13;
-			this->resultButton->Text = L"Рассчитать";
+			this->resultButton->Text = L"ГђГ Г±Г±Г·ГЁГІГ ГІГј";
 			this->resultButton->UseVisualStyleBackColor = true;
 			this->resultButton->Click += gcnew System::EventHandler(this, &MyForm::resultButton_Click);
 			// 
@@ -331,7 +331,7 @@ namespace Calculator {
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(115, 21);
 			this->label6->TabIndex = 12;
-			this->label6->Text = L"Конечная дата";
+			this->label6->Text = L"ГЉГ®Г­ГҐГ·Г­Г Гї Г¤Г ГІГ ";
 			// 
 			// Year2
 			// 
@@ -370,7 +370,7 @@ namespace Calculator {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(123, 21);
 			this->label5->TabIndex = 8;
-			this->label5->Text = L"Начальная дата";
+			this->label5->Text = L"ГЌГ Г·Г Г«ГјГ­Г Гї Г¤Г ГІГ ";
 			// 
 			// Year1
 			// 
@@ -401,7 +401,7 @@ namespace Calculator {
 			this->FormatCB1->DropDownStyle = System::Windows::Forms::ComboBoxStyle::DropDownList;
 			this->FormatCB1->ForeColor = System::Drawing::Color::DarkSlateGray;
 			this->FormatCB1->FormattingEnabled = true;
-			this->FormatCB1->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"ДД/ММ/ГГГГ", L"ММ/ДД/ГГГГ" });
+			this->FormatCB1->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"Г„Г„/ГЊГЊ/ГѓГѓГѓГѓ", L"ГЊГЊ/Г„Г„/ГѓГѓГѓГѓ" });
 			this->FormatCB1->Location = System::Drawing::Point(487, 87);
 			this->FormatCB1->Name = L"FormatCB1";
 			this->FormatCB1->Size = System::Drawing::Size(121, 25);
@@ -418,7 +418,7 @@ namespace Calculator {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(139, 21);
 			this->label4->TabIndex = 3;
-			this->label4->Text = L"Выберите формат";
+			this->label4->Text = L"Г‚Г»ГЎГҐГ°ГЁГІГҐ ГґГ®Г°Г¬Г ГІ";
 			// 
 			// label3
 			// 
@@ -430,7 +430,7 @@ namespace Calculator {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(441, 21);
 			this->label3->TabIndex = 2;
-			this->label3->Text = L"Введите начальную и конечную дату и получите результат!";
+			this->label3->Text = L"Г‚ГўГҐГ¤ГЁГІГҐ Г­Г Г·Г Г«ГјГ­ГіГѕ ГЁ ГЄГ®Г­ГҐГ·Г­ГіГѕ Г¤Г ГІГі ГЁ ГЇГ®Г«ГіГ·ГЁГІГҐ Г°ГҐГ§ГіГ«ГјГІГ ГІ!";
 			// 
 			// label2
 			// 
@@ -442,7 +442,7 @@ namespace Calculator {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(460, 21);
 			this->label2->TabIndex = 1;
-			this->label2->Text = L"Калькулятор вычисляет количество дней между двумя датами";
+			this->label2->Text = L"ГЉГ Г«ГјГЄГіГ«ГїГІГ®Г° ГўГ»Г·ГЁГ±Г«ГїГҐГІ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г¤Г­ГҐГ© Г¬ГҐГ¦Г¤Гі Г¤ГўГіГ¬Гї Г¤Г ГІГ Г¬ГЁ";
 			// 
 			// label1
 			// 
@@ -455,7 +455,7 @@ namespace Calculator {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(399, 30);
 			this->label1->TabIndex = 0;
-			this->label1->Text = L"Сколько времени между двумя датами\?";
+			this->label1->Text = L"Г‘ГЄГ®Г«ГјГЄГ® ГўГ°ГҐГ¬ГҐГ­ГЁ Г¬ГҐГ¦Г¤Гі Г¤ГўГіГ¬Гї Г¤Г ГІГ Г¬ГЁ\?";
 			// 
 			// tabPage2
 			// 
@@ -487,7 +487,7 @@ namespace Calculator {
 			this->tabPage2->Padding = System::Windows::Forms::Padding(3);
 			this->tabPage2->Size = System::Drawing::Size(623, 287);
 			this->tabPage2->TabIndex = 1;
-			this->tabPage2->Text = L"Рассчет времени от сегодняшнего дня";
+			this->tabPage2->Text = L"ГђГ Г±Г±Г·ГҐГІ ГўГ°ГҐГ¬ГҐГ­ГЁ Г®ГІ Г±ГҐГЈГ®Г¤Г­ГїГёГ­ГҐГЈГ® Г¤Г­Гї";
 			// 
 			// label13
 			// 
@@ -499,7 +499,7 @@ namespace Calculator {
 			this->label13->Name = L"label13";
 			this->label13->Size = System::Drawing::Size(33, 21);
 			this->label13->TabIndex = 40;
-			this->label13->Text = L"лет";
+			this->label13->Text = L"Г«ГҐГІ";
 			// 
 			// ResultT3
 			// 
@@ -520,7 +520,7 @@ namespace Calculator {
 			this->label16->Name = L"label16";
 			this->label16->Size = System::Drawing::Size(93, 21);
 			this->label16->TabIndex = 38;
-			this->label16->Text = L"месяцев  = ";
+			this->label16->Text = L"Г¬ГҐГ±ГїГ¶ГҐГў  = ";
 			// 
 			// ResultT2
 			// 
@@ -541,7 +541,7 @@ namespace Calculator {
 			this->label17->Name = L"label17";
 			this->label17->Size = System::Drawing::Size(68, 21);
 			this->label17->TabIndex = 36;
-			this->label17->Text = L"дней   =";
+			this->label17->Text = L"Г¤Г­ГҐГ©   =";
 			// 
 			// ResultT1
 			// 
@@ -562,14 +562,14 @@ namespace Calculator {
 			this->label18->Name = L"label18";
 			this->label18->Size = System::Drawing::Size(80, 21);
 			this->label18->TabIndex = 34;
-			this->label18->Text = L"Результат";
+			this->label18->Text = L"ГђГҐГ§ГіГ«ГјГІГ ГІ";
 			// 
 			// FormatCB2
 			// 
 			this->FormatCB2->DropDownStyle = System::Windows::Forms::ComboBoxStyle::DropDownList;
 			this->FormatCB2->ForeColor = System::Drawing::Color::DarkSlateGray;
 			this->FormatCB2->FormattingEnabled = true;
-			this->FormatCB2->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"ДД/ММ/ГГГГ", L"ММ/ДД/ГГГГ" });
+			this->FormatCB2->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"Г„Г„/ГЊГЊ/ГѓГѓГѓГѓ", L"ГЊГЊ/Г„Г„/ГѓГѓГѓГѓ" });
 			this->FormatCB2->Location = System::Drawing::Point(487, 87);
 			this->FormatCB2->Name = L"FormatCB2";
 			this->FormatCB2->Size = System::Drawing::Size(121, 25);
@@ -586,7 +586,7 @@ namespace Calculator {
 			this->label14->Name = L"label14";
 			this->label14->Size = System::Drawing::Size(139, 21);
 			this->label14->TabIndex = 21;
-			this->label14->Text = L"Выберите формат";
+			this->label14->Text = L"Г‚Г»ГЎГҐГ°ГЁГІГҐ ГґГ®Г°Г¬Г ГІ";
 			// 
 			// ClearButton2
 			// 
@@ -597,7 +597,7 @@ namespace Calculator {
 			this->ClearButton2->Name = L"ClearButton2";
 			this->ClearButton2->Size = System::Drawing::Size(90, 33);
 			this->ClearButton2->TabIndex = 20;
-			this->ClearButton2->Text = L"Очистить";
+			this->ClearButton2->Text = L"ГЋГ·ГЁГ±ГІГЁГІГј";
 			this->ClearButton2->UseVisualStyleBackColor = true;
 			this->ClearButton2->Click += gcnew System::EventHandler(this, &MyForm::ClearButton2_Click);
 			// 
@@ -610,7 +610,7 @@ namespace Calculator {
 			this->resultButton2->Name = L"resultButton2";
 			this->resultButton2->Size = System::Drawing::Size(90, 33);
 			this->resultButton2->TabIndex = 19;
-			this->resultButton2->Text = L"Рассчитать";
+			this->resultButton2->Text = L"ГђГ Г±Г±Г·ГЁГІГ ГІГј";
 			this->resultButton2->UseVisualStyleBackColor = true;
 			this->resultButton2->Click += gcnew System::EventHandler(this, &MyForm::resultButton2_Click);
 			// 
@@ -624,7 +624,7 @@ namespace Calculator {
 			this->label12->Name = L"label12";
 			this->label12->Size = System::Drawing::Size(69, 21);
 			this->label12->TabIndex = 16;
-			this->label12->Text = L"Сегодня";
+			this->label12->Text = L"Г‘ГҐГЈГ®Г¤Г­Гї";
 			// 
 			// YearToday
 			// 
@@ -666,7 +666,7 @@ namespace Calculator {
 			this->label11->Name = L"label11";
 			this->label11->Size = System::Drawing::Size(104, 21);
 			this->label11->TabIndex = 12;
-			this->label11->Text = L"Введите дату";
+			this->label11->Text = L"Г‚ГўГҐГ¤ГЁГІГҐ Г¤Г ГІГі";
 			// 
 			// Year3
 			// 
@@ -708,7 +708,7 @@ namespace Calculator {
 			this->label10->Name = L"label10";
 			this->label10->Size = System::Drawing::Size(267, 21);
 			this->label10->TabIndex = 3;
-			this->label10->Text = L"Введите дату и получите результат!";
+			this->label10->Text = L"Г‚ГўГҐГ¤ГЁГІГҐ Г¤Г ГІГі ГЁ ГЇГ®Г«ГіГ·ГЁГІГҐ Г°ГҐГ§ГіГ«ГјГІГ ГІ!";
 			// 
 			// label9
 			// 
@@ -720,7 +720,7 @@ namespace Calculator {
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(514, 21);
 			this->label9->TabIndex = 2;
-			this->label9->Text = L"Калькулятор вычисляет количество дней, месяцев, лет до любой даты";
+			this->label9->Text = L"ГЉГ Г«ГјГЄГіГ«ГїГІГ®Г° ГўГ»Г·ГЁГ±Г«ГїГҐГІ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г¤Г­ГҐГ©, Г¬ГҐГ±ГїГ¶ГҐГў, Г«ГҐГІ Г¤Г® Г«ГѕГЎГ®Г© Г¤Г ГІГ»";
 			// 
 			// label8
 			// 
@@ -733,7 +733,7 @@ namespace Calculator {
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(417, 30);
 			this->label8->TabIndex = 1;
-			this->label8->Text = L"Сколько времени до определенной даты\?";
+			this->label8->Text = L"Г‘ГЄГ®Г«ГјГЄГ® ГўГ°ГҐГ¬ГҐГ­ГЁ Г¤Г® Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­Г­Г®Г© Г¤Г ГІГ»\?";
 			// 
 			// ExitButton
 			// 
@@ -744,7 +744,7 @@ namespace Calculator {
 			this->ExitButton->Name = L"ExitButton";
 			this->ExitButton->Size = System::Drawing::Size(90, 33);
 			this->ExitButton->TabIndex = 1;
-			this->ExitButton->Text = L"Выход";
+			this->ExitButton->Text = L"Г‚Г»ГµГ®Г¤";
 			this->ExitButton->UseVisualStyleBackColor = true;
 			this->ExitButton->Click += gcnew System::EventHandler(this, &MyForm::ExitButton_Click);
 			// 
@@ -809,7 +809,7 @@ namespace Calculator {
 
 			int daysbef, daysaft;
 
-			switch (month1)
+			switch (month1)//СЂР°СЃСЃРјРѕС‚СЂРµРЅРёРµ СЂР°Р·РЅС‹С… СЃР»СѓС‡Р°РµРІ (РєРѕР»-РІРѕ РґРЅРµР№ РІ РјРµСЃСЏС†Р°С… СЂР°Р·РЅРѕРµ)
 			{
 			case 1: daysbef = day1; break;
 			case 2: daysbef = 31 + day1; break;
@@ -841,7 +841,7 @@ namespace Calculator {
 			case 11: daysaft = 304 + day2; break;
 			case 12: daysaft = 334 + day2; break;
 			}
-			if (isleap(year2) && month2 > 2) { daysaft += 1; }
+			if (isleap(year2) && month2 > 2) { daysaft += 1; } //РµСЃР»Рё РІРёСЃРѕРєРѕСЃРЅС‹Р№
 
 			daycount = daycount + daysaft - daysbef;
 
@@ -889,7 +889,7 @@ namespace Calculator {
 		return monthcount;
 	}
 
-	int YearCount(int day1, int day2, int month1, int month2, int year1, int year2,int monthcount)
+	int YearCount(int day1, int day2, int month1, int month2, int year1, int year2,int monthcount) //РїРѕРґСЃС‡РµС‚ РєРѕР»-РІР° Р»РµС‚ - С†РµР»РѕС‡РёСЃР»РµРЅРЅРѕРµ РґРµР»РµРЅРёРµ
 	{
 		int yearcount;
 		if (year1 != year2)
@@ -955,17 +955,17 @@ namespace Calculator {
 			   }
 		   }
 
-	private: System::Void ClearButton_Click(System::Object^ sender, System::EventArgs^ e) {
+	private: System::Void ClearButton_Click(System::Object^ sender, System::EventArgs^ e) { //РѕС‡РёС‰РµРЅРёРµ РїРѕР»РµР№
 		DoM1->Text = ""; DoM2->Text = ""; Year1->Text = ""; DoM1_1->Text = "";
 		DoM2_2->Text = ""; Result->Text = ""; Result2->Text = ""; Result3->Text = ""; Year2->Text = "";
 		FormatCB1->SelectedIndex = -1;
 	}
 
 	private: System::Void ExitButton_Click(System::Object^ sender, System::EventArgs^ e) {
-		Application::Exit();
+		Application::Exit(); //РєРЅРѕРїРєР° "РІС‹С…РѕРґ" - Р·Р°РІРµСЂС€РµРЅРёРµ СЂР°Р±РѕС‚С‹
 	}
 
-    bool isleap(int year) {
+    bool isleap(int year) { //РІРёСЃРѕРєРѕСЃРЅС‹Р№ Р»Рё РіРѕРґ
 		return (year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0);
 	}
 
@@ -1002,21 +1002,21 @@ namespace Calculator {
 				Result2->Text = System::Convert::ToString(monthcount);
 				Result3->Text = System::Convert::ToString(yearcount);
 			}
-			else MessageBox::Show("Данные введены некорректно!");
+			else MessageBox::Show("Г„Г Г­Г­Г»ГҐ ГўГўГҐГ¤ГҐГ­Г» Г­ГҐГЄГ®Г°Г°ГҐГЄГІГ­Г®!");
 		}
-		else MessageBox::Show("Данные введены некорректно!");
+		else MessageBox::Show("Г„Г Г­Г­Г»ГҐ ГўГўГҐГ¤ГҐГ­Г» Г­ГҐГЄГ®Г°Г°ГҐГЄГІГ­Г®!");
 	}
 	
     private: System::Void Result3_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 }
 
-    private: System::Void ClearButton2_Click(System::Object^ sender, System::EventArgs^ e) {
+    private: System::Void ClearButton2_Click(System::Object^ sender, System::EventArgs^ e) { //РєРЅРѕРїРєР° "РѕС‡РёСЃС‚РёС‚СЊ"
 	DoM1_3->Text = ""; DoM2_3->Text = ""; Year3->Text = ""; DoMToday->Text = ""; DoMToday2->Text = "";
 	YearToday->Text = ""; ResultT1->Text = ""; ResultT2->Text = ""; ResultT3->Text = ""; 
 	FormatCB2->SelectedIndex = -1;
 }
 
-	bool CheckInputBoxes2()
+	bool CheckInputBoxes2() //РІРІРѕРґ С‚РѕР»СЊРєРѕ С†РёС„СЂ Рё РѕРіСЂР°РЅРёС‡РµРЅРёРµ РЅР° РёС… РєРѕР»-РІРѕ - РїСЂРѕРІРµСЂРєР°
 	   {
 		   if (DoM1_3->Text->Length == 0 || DoM1_3->Text->Length > 2) return false;
 		   for (int i = 0; i < DoM1_3->Text->Length; ++i)
@@ -1067,7 +1067,7 @@ namespace Calculator {
 		   }
 	   }
 	
-	bool CheckBox(int day1, int day2, int month1, int month2, int year1, int year2)
+	bool CheckBox(int day1, int day2, int month1, int month2, int year1, int year2) //РїСЂРѕРІРµСЂРєР° РґР°С‚С‹ (РєРѕР»-РІРѕ РґРЅРµР№ РѕС‚ 1 РґРѕ 31, РјРµСЃСЏС†РµРІ - РѕС‚ 1 РґРѕ 12)
 	{
 		if (day1 < 1 || day1 > 31 || month1 < 1 || month1 > 12 || year1 < 0)
 		{
@@ -1084,7 +1084,7 @@ namespace Calculator {
 	if (CheckInputBoxes2())
 	{
 		int day1, month1, year1, day2, month2, year2;
-		if (FormatCB2->SelectedIndex == 0)
+		if (FormatCB2->SelectedIndex == 0) //РµСЃР»Рё С„РѕСЂРјР°С‚ Р”Р”.РњРњ.Р“Р“Р“Р“
 		{
 			day1 = System::Convert::ToInt16(DoM1_3->Text);
 			month1 = System::Convert::ToInt16(DoM2_3->Text);
@@ -1093,7 +1093,7 @@ namespace Calculator {
 			month2 = System::Convert::ToInt16(DoMToday2->Text);
 			year2 = System::Convert::ToInt16(YearToday->Text);
 		}
-		else if (FormatCB2->SelectedIndex == 1)
+		else if (FormatCB2->SelectedIndex == 1) //РµСЃР»Рё С„РѕСЂРјР°С‚ РњРњ.Р”Р”.Р“Р“Р“
 		{
 			day1 = System::Convert::ToInt16(DoM2_3->Text);
 			month1 = System::Convert::ToInt16(DoM1_3->Text);
@@ -1107,16 +1107,17 @@ namespace Calculator {
 			int monthcountt = MonthsCount(day1, day2, month1, month2, year1, year2);
 			int yearcountt = YearCount(day1, day2, month1, month2, year1, year2, monthcountt);
 
-			ResultT1->Text = System::Convert::ToString(daycountt);
+			ResultT1->Text = System::Convert::ToString(daycountt); //РІС‹РІРѕРґ РІ РїРѕР»СЏ СЂРµР·СѓР»СЊС‚Р°С‚
 			ResultT2->Text = System::Convert::ToString(monthcountt);
 			ResultT3->Text = System::Convert::ToString(yearcountt);
 		}
-		else MessageBox::Show("Данные введены некорректно!");
+		else MessageBox::Show("Г„Г Г­Г­Г»ГҐ ГўГўГҐГ¤ГҐГ­Г» Г­ГҐГЄГ®Г°Г°ГҐГЄГІГ­Г®!");
 	}
-	else MessageBox::Show("Данные введены некорректно!");
+	else MessageBox::Show("Г„Г Г­Г­Г»ГҐ ГўГўГҐГ¤ГҐГ­Г» Г­ГҐГЄГ®Г°Г°ГҐГЄГІГ­Г®!");
     }
     
-    private: System::Void FormatCB2_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
+    private: System::Void FormatCB2_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) //СѓСЃС‚Р°РЅРѕРІРєР° СЃРµРіРѕРґРЅСЏС€РЅРµР№ РґР°С‚С‹ РїРѕСЃР»Рµ РІС‹Р±РѕСЂР° С„РѕСЂРјР°С‚Р° РґР°С‚С‹
+    {
 	time_t date = time(NULL);
 	tm* localTime = localtime(&date);
 	if (FormatCB2->SelectedIndex == 0)
